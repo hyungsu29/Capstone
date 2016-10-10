@@ -28,7 +28,7 @@ def board_spider(max_page):
         title_tag = soup.findAll('td', attrs={'class': 't_subject'})
         date_tag = soup.findAll('td',attrs={'class':'t_date'})
 
-        for i in range(0,31):
+        for i in range(0,30):
             if title_no_tag[i].text == u'공지':
                 continue
 
