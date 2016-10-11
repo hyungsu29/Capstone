@@ -1,0 +1,19 @@
+[usage]
+from sqlAPI import *
+
+connect_db() # connecting database
+ no return
+
+in_db1(no, title, content, date) # 크롤링한 데이터를 db1에 넣을 때 사용
+ if return -1, insert error.
+
+query('select * from DB1') # 임의의 쿼리를 날릴 때 사용
+ if return -1, query error.
+ return row data at dictionary type
+
+close_db() # disconnect database
+ no return
+
+
+
+
