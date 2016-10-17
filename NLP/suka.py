@@ -7,7 +7,6 @@ from konlpy.tag import Twitter
 
 import time
 
-
 useclass=list()
 useclass.append(Komoran())
 useclass.append(Mecab())
