@@ -10,9 +10,28 @@ import time
 import operator
 FILEPATH="./data.json"
 DATA={}
-cls=Twitter()
+cls=Mecab()
+maxfreq=dict()
 
 def TF(nouns):
+	ret=dict()
+	freq=dict()
+	for noun in nouns:
+		if(len(noun)<2):
+			continue
+		freq[noun]=0
+	for noun in nouns:
+		if(len(noun)<2):
+			continue
+		freq[noun]+=1
+	for noun in nouns:
+		if(len(noun)<2):
+			continue
+		ret[noun]=0.5
+		ret[noun]+=(0.5*freq[noun])/maxfreq[noun]
+	return ret
+
+def TF3(nouns):
 	allsize=len(nouns)
 	ret=dict()
 	for noun in nouns:
@@ -46,7 +65,7 @@ def TFIDF(allword, tf):
 		ret[word]*=idf
 		
 	return ret
-def calcallword(allword, nouns):
+def initallword(allword, nouns):
 	for noun in nouns:
 		if(len(noun)<2):
 			continue
@@ -63,12 +82,15 @@ def main():
 	start_time=time.time()
 	DATA=readjson(FILEPATH)
 	i=0
+
 	for data in DATA:
 		subject=data['subject']
 		contents=data['contents']
 		raw=subject+' '+contents
 		nouns=cls.nouns(raw)
-		calcallword(allword, nouns)
+		initallword(allword, nouns)
+		initallword(maxfreq, nouns)
+
 	for data in DATA:
 		subject=data['subject']
 		contents=data['contents']
@@ -79,12 +101,22 @@ def main():
 			if(len(noun))<2:
 				continue
 			dd[noun]=0
+		for noun in nouns:
+			if(len(noun))<2:
+				continue
+			dd[noun]+=1
+
+		for noun in nouns:
+			if(len(noun))<2:
+				continue
+			if(maxfreq[noun]<dd[noun]):
+				maxfreq[noun]=dd[noun]
 		for d in dd:
 			allword[d]+=1
 	for word in allword:
 		v=math.log(len(allword)/allword[word])
 		allword[word]=v
-	
+	print (maxfreq)
 	final=allword
 	for f in final:
 		final[f]=0
