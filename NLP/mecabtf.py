@@ -10,18 +10,35 @@ import time
 import operator
 FILEPATH="./data.json"
 DATA={}
-cls=Mecab()
+cls=Twitter()
 
 def TF(nouns):
 	allsize=len(nouns)
 	ret=dict()
 	for noun in nouns:
-		ret[noun]=0
+		if(len(noun)<2):
+			continue
+		ret[noun]=1
+	return ret
+
+def TF2(nouns):
+	allsize=len(nouns)
+	ret=dict()
 	for noun in nouns:
+		if(len(noun)<2):
+			continue
+		ret[noun]=0
+
+	for noun in nouns:
+		if(len(noun)<2):
+			continue
 		ret[noun]+=1
+
 	for r in ret:
 		ret[r]/=allsize
+
 	return ret
+
 def TFIDF(allword, tf):
 	ret=tf
 	for word in ret:
@@ -31,6 +48,8 @@ def TFIDF(allword, tf):
 	return ret
 def calcallword(allword, nouns):
 	for noun in nouns:
+		if(len(noun)<2):
+			continue
 		allword[noun]=0
 
 def readjson(fn):
@@ -57,6 +76,8 @@ def main():
 		nouns=cls.nouns(raw)
 		dd=dict()
 		for noun in nouns:
+			if(len(noun))<2:
+				continue
 			dd[noun]=0
 		for d in dd:
 			allword[d]+=1
@@ -64,6 +85,9 @@ def main():
 		v=math.log(len(allword)/allword[word])
 		allword[word]=v
 	
+	final=allword
+	for f in final:
+		final[f]=0
 	for data in DATA:
 		subject=data['subject']
 		contents=data['contents']
@@ -71,6 +95,15 @@ def main():
 		nouns=cls.nouns(raw)
 		tfidf=TFIDF(allword,TF(nouns))
 		tfidf=sorted(tfidf.items(), key=operator.itemgetter(1), reverse=True)
-		print (tfidf)
+		j=0
+		for kk in tfidf:
+			if(j>=3):
+				break
+			print (kk[0])
+			final[kk[0]]+=1
+			j+=1
+		print ('----------------------------------------------')
+	final=sorted(final.items(), key=operator.itemgetter(1), reverse=True)
+	print (final)
 if __name__=="__main__":
 	main()
