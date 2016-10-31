@@ -2,7 +2,7 @@
 import urllib
 from bs4 import BeautifulSoup
 import os
-
+from sqlAPI import *
 title_no = []
 title = []
 href = []
@@ -41,6 +41,7 @@ def board_spider(max_page):
 
 def make_directory():
     for i in range (len(date)):
+        '''
         homeDir = os.getcwd()
         if not os.path.isdir(date[i]):
             os.mkdir(date[i])
@@ -53,11 +54,19 @@ def make_directory():
         f.close()
 
         os.chdir(homeDir)
+        '''
+        in_db1(str(title_no[i]),str(title[i]),str(contents_spider(href[i])),str(date[i]))
     return
 
+
+connect_db()
 if not os.path.isdir("Crawling"):
     os.mkdir("Crawling")
 os.chdir("Crawling")
 
-board_spider(5)
+board_spider(50)
+
+
 make_directory()
+close_db()
+

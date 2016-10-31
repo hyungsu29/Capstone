@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import requests
 import sys
 import os
+import sqlAPI
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -64,6 +65,7 @@ def crawl(search_date,url):
         finally:
             if(str(date).strip()==str(search_date).strip()):
                 sys.exit()
+            '''
             os.chdir(os.getcwd())
             if not os.path.isdir('./'+str(date)):
                 os.system('mkdir '+str(date))
@@ -74,9 +76,12 @@ def crawl(search_date,url):
             f.write('\n')
             f.write(str(content))
             f.close()
-
+            '''
+            sqlAPI.in_db1(str(no),str(title),str(content),str(date))
     page += 1
     crawl(search_date,URL+str(page))
 
 if __name__=="__main__":
+    sqlAPI.connect_db()
     crawl(sys.argv[1],URL+str(page))
+    sqlAPI.close_db()
