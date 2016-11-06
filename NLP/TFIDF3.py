@@ -8,8 +8,6 @@ from konlpy.tag import Twitter
 import math
 import time
 import operator
-FILEPATH="./data.json"
-DATA={}
 cls=list()
 cls.append(Mecab())
 cls.append(Komoran())
@@ -46,47 +44,30 @@ def readjson(fn):
 	return js
 
 def getnouns(raw):
-	ret=dict()
-	d=list()
-	d.append(dict())
-	d.append(dict())
-	d.append(dict())
-	for i in range(0, 3):
-		nouns=cls[i].nouns(raw)
-		for noun in nouns:
-			d[i][noun]=1
-	for i in range(0, 3):
-		words=d[i]
-		for word in words:
-			ret[word]=0
-	for i in range(0, 3):
-		words=d[i]
-		for word in words:
-			ret[word]+=1
-	ret2=list()
-	for w in ret.keys():
-		if(ret[w]>1):
-			ret2.append(w)
-	return ret2
+	ret=list()
+	words=raw.split(' ')
+	for word in words:
+		ret.append(word.strip())
+	return ret
+
 
 def main():
 	allword=dict()
 	start_time=time.time()
-	DATA=readjson(FILEPATH)
+	f=open('R.csv','r')
+	DATA=f.readlines()
+	f.close()
 	i=0
 
 	for data in DATA:
-		subject=data['subject']
-		contents=data['contents']
-		raw=subject+' '+contents
+		raw=data.split(',')[1]
 		nouns=getnouns(raw)
 		initallword(allword, nouns)
 		initallword(maxfreq, nouns)
 	for data in DATA:
-		subject=data['subject']
-		contents=data['contents']
-		raw=subject+' '+contents
+		raw=data.split(',')[1]
 		nouns=getnouns(raw)
+		print(nouns)
 		dd=dict()
 		for noun in nouns:
 			if(len(noun))<2:
@@ -107,59 +88,47 @@ def main():
 	for word in allword:
 		v=math.log(len(allword)/allword[word])
 		allword[word]=v
-	#print (maxfreq)
+	print (maxfreq)
 	final=allword
 	for f in final:
 		final[f]=0
-	f=open('R.csv','w')
+	f=open('R2.csv','w')
 
 	for data in DATA:
-		subject=data['subject']
-		contents=data['contents']
-		date=data['date']
-		raw=subject+' '+contents
+		date=data.split(',')[0]
+		raw=data.split(',')[1]
 		nouns=getnouns(raw)
 		tfidf=TFIDF(allword,TF(nouns))
 		tfidf=sorted(tfidf.items(), key=operator.itemgetter(1), reverse=True)
 		j=0
 		for kk in tfidf:
-			#if(j>=5):
-			#	break
+			if(j>=10):
+				break
 			q=str(date)+','+kk[0]
 			q=q.strip()
 			f.write(q)
 			f.write('\n')
-			#print (kk[0])
+			print (kk[0])
 			final[kk[0]]+=1
 			j+=1
-	#	print ('----------------------------------------------')
+		print ('----------------------------------------------')
 	f.close()
-	final=sorted(final.items(), key=operator.itemgetter(1), reverse=True)
-	#print (final)
-	f=open('R.csv','r')
-	q=''
-	qq=''
-	oridate=''
+	f=open('R2.csv','r')
+	dd=dict()
 	lines=f.readlines()
 	f.close()
 	for line in lines:
-		raws=line.split(',')
-		date=raws[0].strip()
-		keyword=raws[1].strip()
-		if(date!=oridate):
-			qq+=q
-			qq+='\n'
-			q=date+','
-			oridate=date
-		if(date==oridate):
-			q+=' '
-			q+=keyword
-			
-	if(len(q)>10):
-		qq+=q
-	f=open('R.csv','w')
-	f.write(qq.strip())
+		dd[line.strip()]=0
+	f=open('R2.csv','w')
+	f.write('date,keyword\n')
+	dd=sorted(dd.items(),key=operator.itemgetter(0))
+	for d in dd:
+		s=d[0]
+		f.write(s)
+		f.write('\n')
 	f.close()
-		
+	final=sorted(final.items(), key=operator.itemgetter(1), reverse=True)
+	print (final)
+	
 if __name__=="__main__":
 	main()
