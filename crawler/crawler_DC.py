@@ -2,6 +2,7 @@
 import urllib
 from bs4 import BeautifulSoup
 import os
+import re
 from sqlAPI import *
 title_no = []
 title = []
