@@ -42,10 +42,12 @@ def board_spider(max_page):
 def make_directory():
     for i in range (len(date)):
         '''
-        homeDir = os.getcwd()
-        if not os.path.isdir(date[i]):
-            os.mkdir(date[i])
-        os.chdir(date[i])
+        str = date[i]   # -- 창현이의 부탁으로 인해 yyyymmdd로 바꾸기 위한 작업
+        strs = re.sub('[.]', '', str)
+
+        if not os.path.isdir(strs):
+            os.mkdir(strs)
+        os.chdir(strs)
 
         f = open(title_no[i]+'.txt', 'w')
         f.write(title[i].encode('utf-8'))
