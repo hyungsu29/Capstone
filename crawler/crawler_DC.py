@@ -2,6 +2,7 @@
 import urllib
 from bs4 import BeautifulSoup
 import os
+import re
 from sqlAPI import *
 title_no = []
 title = []
@@ -28,7 +29,7 @@ def board_spider(max_page):
         title_tag = soup.findAll('td', attrs={'class': 't_subject'})
         date_tag = soup.findAll('td',attrs={'class':'t_date'})
 
-        for i in range(0,30):
+        for i in range(0,29):
             if title_no_tag[i].text == u'공지':
                 continue
 
@@ -42,10 +43,12 @@ def board_spider(max_page):
 def make_directory():
     for i in range (len(date)):
         '''
-        homeDir = os.getcwd()
-        if not os.path.isdir(date[i]):
-            os.mkdir(date[i])
-        os.chdir(date[i])
+        str = date[i]   # -- 창현이의 부탁으로 인해 yyyymmdd로 바꾸기 위한 작업
+        strs = re.sub('[.]', '', str)
+
+        if not os.path.isdir(strs):
+            os.mkdir(strs)
+        os.chdir(strs)
 
         f = open(title_no[i]+'.txt', 'w')
         f.write(title[i].encode('utf-8'))
@@ -64,7 +67,7 @@ if not os.path.isdir("Crawling"):
     os.mkdir("Crawling")
 os.chdir("Crawling")
 
-board_spider(50)
+board_spider(50) # 몇 페이지를 크롤링 할 것인가? 사용자는 여기만 수정하면 됨.
 
 
 make_directory()

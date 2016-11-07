@@ -7,6 +7,9 @@ connect_db() # connecting database
 in_db1(no, title, content, date) # 크롤링한 데이터를 db1에 넣을 때 사용
  if return -1, insert error.
 
+in_db2(lhs,rhs,support,confidence,lift) # 가공을 마친 데이터를 db2에 넣을 때 사용
+ if return -1, insert error.
+
 query('select * from DB1') # 임의의 쿼리를 날릴 때 사용
  if return -1, query error.
  return row data at dictionary type

@@ -38,8 +38,16 @@ def in_db1(no,title,content,date):
     finally:
         return 1
 
-def in_db2(self):
-    return 0
+def in_db2(lhs, rhs, support, confidence, lift):
+    global curs
+    _query = "insert into DB2 (lhs, rhs, support, confidence, lift) values ('"+lhs+"','"+rhs+"',"+str(support)+","+str(confidence)+","+str(lift)+")"
+    try:
+        curs.execute(_query)
+    except pymysql.InternalError as error:
+        print error.args
+        return -1
+    finally:
+        return 1
 
 def query(_query):
     global curs

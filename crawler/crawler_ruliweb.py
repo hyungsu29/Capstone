@@ -65,18 +65,6 @@ def crawl(search_date,url):
         finally:
             if(str(date).strip()==str(search_date).strip()):
                 sys.exit()
-            '''
-            os.chdir(os.getcwd())
-            if not os.path.isdir('./'+str(date)):
-                os.system('mkdir '+str(date))
-            f=open('./'+str(date)+'/'+str(no)+'.txt','w')
-            f.write(str(title))
-            f.write('\n')
-            f.write('/**//**/')
-            f.write('\n')
-            f.write(str(content))
-            f.close()
-            '''
             sqlAPI.in_db1(str(no),str(title),str(content),str(date))
     page += 1
     crawl(search_date,URL+str(page))
