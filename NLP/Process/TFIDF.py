@@ -116,50 +116,48 @@ def main():
 	for data in DATA:
 		subject=data['subject']
 		contents=data['contents']
+		no=data['no']
 		date=data['date']
 		raw=subject+' '+contents
 		nouns=getnouns(raw)
 		tfidf=TFIDF(allword,TF(nouns))
 		tfidf=sorted(tfidf.items(), key=operator.itemgetter(1), reverse=True)
 		j=0
+		ws=str(date)+','+str(no)
+		#seq, evt, sz, item
+		tfs=''
+		
 		for kk in tfidf:
-			#if(j>=5):
-			#	break
-			q=str(date)+','+kk[0]
-			q=q.strip()
-			f.write(q)
-			f.write('\n')
-			#print (kk[0])
-			final[kk[0]]+=1
+			if(j>=3):
+				continue		
+			tfs+=kk[0]
+			tfs+=','
 			j+=1
+			final[kk[0]]+=1
+		if(j<1):
+			continue
+		tfs=tfs[:len(tfs)-1]
+		ws+=','
+		ws+=str(j)
+		ws+=','
+		ws+=tfs
+		f.write(ws.strip())
+		f.write('\n')
 	#	print ('----------------------------------------------')
 	f.close()
 	final=sorted(final.items(), key=operator.itemgetter(1), reverse=True)
 	#print (final)
 	f=open('R.csv','r')
-	q=''
-	qq=''
-	oridate=''
 	lines=f.readlines()
 	f.close()
-	for line in lines:
-		raws=line.split(',')
-		date=raws[0].strip()
-		keyword=raws[1].strip()
-		if(date!=oridate):
-			qq+=q
-			qq+='\n'
-			q=date+','
-			oridate=date
-		if(date==oridate):
-			q+=' '
-			q+=keyword
-			
-	if(len(q)>10):
-		qq+=q
+	N=len(lines)
+	sss=''
+	for i in range(0, N):
+		idx=N-1-i
+		sss+=lines[idx].strip()
+		sss+='\n'
 	f=open('R.csv','w')
-	f.write(qq.strip())
+	f.write(sss.strip())
 	f.close()
-		
 if __name__=="__main__":
 	main()

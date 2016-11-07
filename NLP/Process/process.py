@@ -22,6 +22,7 @@ for line in lines:
 	lhss=rawlhs.split(',')
 	if(len(lhss)!=3):
 		continue
+	print (raws)
 	lhs=rawlhs
 	rhs=raws[3]
 	support=float(raws[4])
@@ -41,7 +42,7 @@ conn = pymysql.connect(host='localhost', user='root', password='9999',
                        db='capstone', charset='utf8')
  
 curs = conn.cursor()
- 
+curs.execute('delete from DB2')
 for line in lines:
 	i+=1
 	if(i==0):

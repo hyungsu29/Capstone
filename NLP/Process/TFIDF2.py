@@ -102,7 +102,7 @@ def main():
 		tfidf=sorted(tfidf.items(), key=operator.itemgetter(1), reverse=True)
 		j=0
 		for kk in tfidf:
-			if(j>=10):
+			if(j>=5):
 				break
 			q=str(date)+','+kk[0]
 			q=q.strip()
