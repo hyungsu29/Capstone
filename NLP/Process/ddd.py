@@ -1,17 +1,18 @@
 import pymysql
+import os
+import sys
 def cutstr(s):
 	s=s.replace('<','')
 	s=s.replace('>','')
 	s=s.replace('"','')
 	return s
 
-
-
-
+site=sys.argv[1]
+site=site.strip()
 conn = pymysql.connect(host='localhost', user='root', password='9999', db='capstone', charset='utf8')
 
 curs = conn.cursor()
-curs.execute('delete from DB2')
+curs.execute("delete from DB2 where site='"+site+"'")
 
 
 f=open('result.txt','r')
@@ -37,8 +38,7 @@ for line in lines:
 	sql+="'"+lhs+"',"
 	sql+="'"+rhs+"',"
 	sql+=str(support)+','
-	sql+=str(support)+','
-	sql+=str(support)+')'
+	sql+="'"+site+"')"
 	print (sql)
 	curs.execute(sql)
 conn.commit()

@@ -8,7 +8,7 @@ from konlpy.tag import Twitter
 import math
 import time
 import operator
-FILEPATH="./ilbe.json"
+FILEPATH="./result.json"
 DATA={}
 cls=list()
 cls.append(Mecab())
@@ -77,8 +77,10 @@ def main():
 
 	for data in DATA:
 		subject=data['subject']
+		print(subject)
 		contents=data['contents']
-		raw=subject+' '+contents
+		#raw=subject+' '+contents
+		raw=subject
 		raw=raw.strip()
 		nouns=getnouns(raw)
 		initallword(allword, nouns)
@@ -86,7 +88,8 @@ def main():
 	for data in DATA:
 		subject=data['subject']
 		contents=data['contents']
-		raw=subject+' '+contents
+		#raw=subject+' '+contents
+		raw=raw.strip()
 		raw=raw.strip()
 		nouns=getnouns(raw)
 		dd=dict()
@@ -107,7 +110,7 @@ def main():
 		for d in dd:
 			allword[d]+=1
 	for word in allword:
-		v=math.log(len(allword)/allword[word])
+		v=math.log(len(allword)/(allword[word]+1))
 		allword[word]=v
 	#print (maxfreq)
 	final=allword
@@ -118,8 +121,9 @@ def main():
 	for data in DATA:
 		subject=data['subject']
 		contents=data['contents']
-		date=data['date']
-		raw=subject+' '+contents
+		date=data['date'].replace('.','')
+		#raw=subject+' '+contents
+		raw=subject
 		raw=raw.strip()
 		nouns=getnouns(raw)
 		tfidf=TFIDF(allword,TF(nouns))

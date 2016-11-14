@@ -77,7 +77,7 @@ def main():
 		ws=date+','
 		ss=''
 		for kk in tfidf:
-			if(j>=8):
+			if(j>=10):
 				break
 			ss+=kk[0]
 			ss+=','
