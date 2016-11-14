@@ -1,15 +1,23 @@
 import operator
 import json
+import os
+import sys
 f=open('R.csv','r')
 lines=f.readlines()
 f.close()
 d=dict()
 allword=0
+_site=sys.argv[1]
+_startdate=sys.argv[2]
+_enddate=sys.argv[3]
+
 for line in lines:
 	raw=line.split(',')
 	date=raw[0].strip()
 	site=raw[1].strip()
 	words=raw[2].strip()
+	if(_site!=site or date<_startdate or _enddate<date):
+		continue
 	words=raw[2].split(' ')
 	for word in words:
 		word=word.strip()
@@ -23,6 +31,8 @@ for line in lines:
 	date=raw[0].strip()
 	site=raw[1].strip()
 	words=raw[2].strip()
+	if(_site!=site or date<_startdate or _enddate<date):
+		continue
 	words=raw[2].split(' ')
 	for word in words:
 		word=word.strip()

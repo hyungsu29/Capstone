@@ -1,3 +1,4 @@
+import os
 import json
 from konlpy.tag import Mecab
 from konlpy.tag import Hannanum

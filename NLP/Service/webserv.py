@@ -1,10 +1,12 @@
 from bottle import route, run, request, response
-
+import os
+import sys
 @route('/gettable')
 def gettable():
 	site=request.query.site
 	startdate=request.query.startdate
 	enddate=request.query.enddate
+	os.system('python3 gettable.py '+site+' '+startdate+' '+enddate)
 	f=open('./examjson/gettable.json','r')
 	s=f.read()
 	f.close()
