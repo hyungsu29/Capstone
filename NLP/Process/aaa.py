@@ -4,7 +4,7 @@ from konlpy.tag import Hannanum
 from konlpy.tag import Kkma
 from konlpy.tag import Komoran
 from konlpy.tag import Twitter
-
+import pymysql
 import math
 import time
 import operator
@@ -39,6 +39,17 @@ def initallword(allword, nouns):
 			continue
 		allword[noun]=0
 
+def readdb():
+	conn = pymysql.connect(host='localhost', user='root', password='9999', db='capstone', charset='utf8')
+	curs = conn.cursor(pymysql.cursors.DictCursor)
+	curs.execute('select * from DB1')
+	rows=curs.fetchall()
+
+	data=json.dumps(rows, ensure_ascii=False)
+	print(data)
+	return rows
+
+
 def readjson(fn):
 	f=open(fn,'r')
 	js=json.loads(f.read())
@@ -72,7 +83,8 @@ def getnouns(raw):
 def main():
 	allword=dict()
 	start_time=time.time()
-	DATA=readjson(FILEPATH)
+	DATA=readdb()
+	#DATA=readjson(FILEPATH)
 	i=0
 
 	for data in DATA:
