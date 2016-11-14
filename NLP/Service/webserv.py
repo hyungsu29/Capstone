@@ -15,9 +15,10 @@ def gettable():
 @route('/getdata')
 def getdata():
 	# use in graph
-	site=request.query.site
-	keyword=request.query.keyword
-	date=request.query.date
+	site=request.query.site.strip()
+	keyword=request.query.keyword.strip()
+	date=request.query.date.strip()
+	os.system('python3 getdata.py '+site+' '+keyword+' '+date)
 	f=open('./examjson/getdata.json','r')
 	s=f.read()
 	f.close()

@@ -48,8 +48,8 @@ for item in sorted_d:
 	v=dict()
 	v['rank']=idx
 	v['keyword']=item[0].strip()
-	v['freq']=item[1]
-	v['percent']=round((float(v['freq'])/allword)*100.0,1)
+	v['Frequency']=item[1]
+	v['percent']=round((float(v['Frequency'])/allword)*100.0,1)
 	retlist.append(v)
 	idx+=1
 retjson=json.dumps(retlist,ensure_ascii=False)
