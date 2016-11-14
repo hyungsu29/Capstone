@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getpredict.py", line 6, in <module>
+    _site=sys.argv[1]
+IndexError: list index out of range

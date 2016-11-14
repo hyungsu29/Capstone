@@ -25,16 +25,13 @@ def getdata():
 	return s
 
 @route('/getpredict')
-def getpredict():	
-        site=request.query.site
-        startdate=request.query.startdate
-        enddate=request.query.enddate
-
-        f=open('./examjson/getpredict.json','r')
-        s=f.read()
-        f.close()
-        return s
-
-
-
+def getpredict():
+	site=request.query.site.strip()
+	startdate=request.query.startdate.strip()
+	enddate=request.query.enddate.strip()
+	os.system('python3 getpredict.py '+site+' '+startdate+' '+enddate)
+	f=open('./examjson/getpredict.json','r')
+	s=f.read()
+	f.close()
+	return s
 run(host='0.0.0.0', port=6974)

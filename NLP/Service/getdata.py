@@ -8,7 +8,12 @@ f.close()
 _site=sys.argv[1].strip()
 _keyword=sys.argv[2].strip()
 _date=sys.argv[3].strip()
+date2=_date
+date2=date2[4:]
+date2=date2[0]+date2[1]+'/'+date2[2:]
 d=dict()
+d['keyword']=_keyword
+d['date']=date2
 d['Frequency']=0
 for line in lines:
 	raw=line.split(',')
