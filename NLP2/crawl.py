@@ -135,6 +135,8 @@ nono+=1
 nn=int(sys.argv[2])
 for i in range(0, nn):
     nono-=1
+    if(nono%2==0):
+        continue
     url=ourl+str(nono)
     html=gethtml(url)
     if(isdel(html)):
@@ -155,5 +157,5 @@ for i in range(0, nn):
     f=open('query.txt','a')
     f.write(q)
     f.close()
-    time.sleep(1.5)
+    time.sleep(0.05)
 
