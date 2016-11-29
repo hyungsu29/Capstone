@@ -18,7 +18,7 @@ def get_cursor(sql):
 def connect_db():
     global sql
     try:
-        sql = pymysql.connect(host='165.246.44.144',port=55555,user='capstone',passwd='qwer1234',db='Trend', charset='utf8',cursorclass=pymysql.cursors.DictCursor,autocommit=True)
+        sql = pymysql.connect(host='127.0.0.1',user='root',passwd='9999',db='capstone', charset='utf8',cursorclass=pymysql.cursors.DictCursor,autocommit=True)
     except:
         sys.exit('[*] database connect error!\n[+] Check your database server.\n')
     finally:
@@ -29,7 +29,7 @@ def in_db1(no,title,content,date):
     global curs
     if no=='':
         return -1
-    _query = "insert into DB1 (no, title, content, date) values ('"+no.replace("'",'')+"','"+title.replace("'",'')+"','"+content.replace("''",'')+"','"+date.replace("'",'')+"')"
+    _query = "insert into DB1 (no, subject, contents, date) values ('"+no.replace("'",'')+"','"+title.replace("'",'')+"','"+content.replace("''",'')+"','"+date.replace("'",'')+"')"
     try:
         curs.execute(_query)
     except pymysql.InternalError as error:

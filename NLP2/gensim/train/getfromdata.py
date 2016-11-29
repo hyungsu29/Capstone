@@ -6,11 +6,17 @@ rows=curs.fetchall()
 f=open('train.txt','w')
 f.write('id	document	label\n')
 for row in rows:
-	q=row['no']
+	no=row['no']
+	subject=row['subject']
+	date=row['date']
+	no=no.replace('	','')
+	subject=subject.replace('	','')
+	date=date.replace('	','')
+	q=no
 	q+='	'
-	q+=row['subject']
+	q+=subject
 	q+='	'
-	q+=row['date']
+	q+=date
 	q+='\n'
 	f.write(q)
 

@@ -1,6 +1,6 @@
 #-*- coding: utf-8 -*-
 import urllib
- 
+import pymysql 
 import urllib2
 import os
 import sys
@@ -15,9 +15,9 @@ def decodehtml(s):
     return s.strip()
 
 def gethtml(url, cookie):
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
+    user_agent='"Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0"'
     req = urllib2.Request(url)
-     
+    req.add_header("Referer",'http://m.inha.ac.kr/new_plaza/talktalkDetail.aspx?bdseq=5360907&gubun=235757&page=1&k_gubun=&k_word=&category1=') 
     req.add_header("User-agent", user_agent) # 헤더추가
     req.add_header("Cookie", cookie) # 쿠키 추가
      
@@ -137,28 +137,42 @@ def getprevurl(data):
     ret=ret[2:]
     return 'http://m.inha.ac.kr/new_plaza/'+ret
 
+def insert(n, d, s, c):
+    conn = pymysql.connect(host='localhost', user='root', password='9999', db='capstone', charset='utf8')
+    curs = conn.cursor()
+    que='insert into DB1 values('
+    que+=str(n)
+    que+=','
+    que+=str(d)
+    que+=','
+    que+="'"+s+"',"
+    que+="'"+c+"','inha.ac.kr')"
+    print (que)
+    curs.execute(que)
+    conn.commit()
+    conn.close()
 
 
 
-url = "http://m.inha.ac.kr/new_plaza/talktalkDetail.aspx?bdseq=5343929&gubun=235757&page=1&k_gubun=&k_word=&category1="
-cookie='WT_FPC=id=29bd355034caf88b89b1473250991325:lv=1473251006303:ss=1473250991325; ASP.NET_SessionId=ha3vsy45lsr0po55tvllmf55; _gat=1; MobileYn=N; LOGIN=LOGIN=&IDCHK=False&PWCHK=False&lyn=1&ID=&PW=; MENUINFO=p_menu=%ec%9d%b8%ed%95%98%ea%b4%91%ec%9e%a5%2c%2fnew_plaza%2fplaza_main.aspx&c_menunm=%ec%83%81%ec%84%b8%eb%b3%b4%ea%b8%b0; LOGIN=LOGIN=&IDCHK=False&PWCHK=False&lyn=1&ID=&PW=; PUSH_CNT=2; _ga=GA1.3.1736089513.1473413238'
 
-for i in range(0, 1000):
+url='http://m.inha.ac.kr/new_plaza/plaza_main.aspx?'
+cookie='"MENUINFO=p_menu=LOGIN%2c%2fLOGIN%2fLOGIN.ASPX&c_menunm=LOGIN; ASP.NET_SessionId=no5wxk55ez5xtw45oc4qo455; MobileYn=N; LOGIN=LOGIN=&IDCHK=False&PWCHK=False&lyn=1&ID=&PW=; PUSH_CNT=0; LOGIN=LOGIN=&IDCHK=False&PWCHK=False&lyn=0&ID=&PW="'
+for i in range(0, 50000):
     html=gethtml(url,cookie)
-    #print html
-
+    print (html)
+    break
     _no =getno(html)
-    print _no
+    print (_no)
 
     _date= getdate(html)
-    print _date
+    print (_date)
 
     
     _subject= getsubject(html)
-    print _subject
+    print (_subject)
 
     _contents= getcontents(html)
-    print _contents
+    print (_contents)
     
     url=getprevurl(html)
 
@@ -166,22 +180,12 @@ for i in range(0, 1000):
     #print _date
     #print _subject
     #print _contents
-    print url
+    print (url)
 
     
     dt=getdate(html)
     datestr=dt[0]+dt[1]+dt[2]
-    print i
+    print (i)
     if(len(datestr)>10):
         continue
-    mkq='mkdir '+datestr
-    os.system(mkq)
-
-    f=open('./'+datestr+'/'+_no+'.txt','w')
-    f.write(_subject)
-    f.write('\n')
-    f.write('/**//**/')
-    f.write('\n')
-    f.write(_contents)
-    f.close()
-
+    insert(_no,_date,_subject,_contents)

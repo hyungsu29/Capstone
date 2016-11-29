@@ -6,16 +6,21 @@ def read_data(filename):
 train_data = read_data('train.txt')
 
 
-#print(len(train_data))      # nrows: 150000
-#print(len(train_data[0]))
+print(len(train_data))      # nrows: 150000
+print(len(train_data[0]))
 
 from konlpy.tag import Twitter
 pos_tagger = Twitter()
 def tokenize(doc):
     # norm, stem은 optional
     return ['/'.join(t) for t in pos_tagger.pos(doc, norm=True, stem=True)]
-train_docs=0
-train_docs = [(tokenize(row[1]), row[2]) for row in train_data]
+train_docs=list()
+for row in train_data:
+	try:
+		train_docs.append((tokenize(row[1]), row[2]))
+	except:
+		continue
+#train_docs = [(tokenize(row[1]), row[2]) for row in train_data]
 
 from pprint import pprint
 pprint(train_docs[0])

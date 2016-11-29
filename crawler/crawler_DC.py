@@ -67,7 +67,7 @@ if not os.path.isdir("Crawling"):
     os.mkdir("Crawling")
 os.chdir("Crawling")
 
-board_spider(50) # 몇 페이지를 크롤링 할 것인가? 사용자는 여기만 수정하면 됨.
+board_spider(100) # 몇 페이지를 크롤링 할 것인가? 사용자는 여기만 수정하면 됨.
 
 
 make_directory()

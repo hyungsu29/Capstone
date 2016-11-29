@@ -128,10 +128,12 @@ def getprevurl(data):
 
 
 
-url="http://www.inha.ac.kr/user/boardList.do?command=view&page=7&boardId=235757&boardSeq=5340912&id=plaza_010100000000"
-cookie='elevisor_for_j2ee_uid=5549439729676447256; WT_FPC=id=29bd355034caf88b89b1473250991325:lv=1473251006303:ss=1473250991325; _ga=GA1.3.1736089513.1473413238; JSESSIONID=9F71291D6966139E837702471F346291'
+url='http://www.inha.ac.kr/user/boardList.do?command=view&boardId=235757&boardSeq=5357968&id=plaza_010100000000'
+cookie='"LOGIN=LOGIN=&IDCHK=False&PWCHK=False&lyn=1&ID=&PW=; elevisor_for_j2ee_uid=7989632431844957941; JSESSIONID=C4FEB1C80C504EF6A984242327869B44"'
 for i in range(0, 100):
     html=gethtml(url,cookie)
+    print html
+    break
     _no =getno(html)
     _date= getdate(html)
     _subject= getsubject(html)
