@@ -1,0 +1,1546 @@
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+198558
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('어느/Adverb', 0.5290867686271667),
+ ('안/Noun', 0.518235445022583),
+ ('..../Punctuation', 0.5167953968048096),
+ ('인하대/Noun', 0.4966256618499756),
+ ('르/Noun', 0.49462464451789856),
+ ('각/Noun', 0.4942050576210022),
+ ('공/Noun', 0.48867103457450867),
+ ('내일/Noun', 0.48419618606567383),
+ ('나/Noun', 0.47976425290107727),
+ ('ㅇㅇ/KoreanParticle', 0.47112393379211426)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+198648
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('잡/Noun', 0.5939744710922241),
+ ('덜렁/Noun', 0.5921773910522461),
+ ('근데/Adverb', 0.581554651260376),
+ ('대학교/Noun', 0.5736312866210938),
+ ('밉다/Adjective', 0.5675607323646545),
+ ('교수/Noun', 0.5672472715377808),
+ ('총장/Noun', 0.5653468370437622),
+ ('잡다/Verb', 0.5643240809440613),
+ ('나/Josa', 0.5613638162612915),
+ ('안/Noun', 0.5592290163040161)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+198744
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('입결/Noun', 0.6775449514389038),
+ ('인천/Noun', 0.6446540355682373),
+ ('컴공/Noun', 0.6433128118515015),
+ ('질문/Noun', 0.6367949843406677),
+ ('의대/Noun', 0.6060017347335815),
+ ('잡/Noun', 0.5940707921981812),
+ ('+/Punctuation', 0.5907785892486572),
+ ('잡다/Verb', 0.569280207157135),
+ ('저/Noun', 0.5647254586219788),
+ ('지하철/Noun', 0.5639307498931885)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+198908
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('부터/Josa', 0.5994170904159546),
+ ('어렵다/Adjective', 0.5965046286582947),
+ ('ㅇㅇ/KoreanParticle', 0.5884443521499634),
+ ('맞다/Verb', 0.5748953819274902),
+ ('근데/Adverb', 0.5442032217979431),
+ ('아니다/Adjective', 0.5428880453109741),
+ ('얼마나/Noun', 0.5379146337509155),
+ ('일수/Noun', 0.536678671836853),
+ ('등급/Noun', 0.5218799114227295),
+ ('시대/Noun', 0.5098426938056946)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199010
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('대학/Noun', 0.4621333181858063),
+ ('한/Determiner', 0.4578993320465088),
+ ('1/Number', 0.4539981484413147),
+ ('./Punctuation', 0.44924306869506836),
+ ('인/Josa', 0.44748926162719727),
+ ('먹다/Verb', 0.4468110501766205),
+ ('강의/Noun', 0.4456750452518463),
+ ('다/Adverb', 0.44507527351379395),
+ ('들/Suffix', 0.4447036385536194),
+ ('남다/Verb', 0.4417214095592499)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199088
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('후문/Noun', 0.5857552289962769),
+ ('대학원/Noun', 0.558721125125885),
+ ('긱사/Noun', 0.5505938529968262),
+ ('전체/Noun', 0.5229166150093079),
+ ('개/Noun', 0.5202487707138062),
+ ('퀴즈/Noun', 0.5200726389884949),
+ ('이상/Noun', 0.5068545341491699),
+ ('버스/Noun', 0.5032919645309448),
+ ('이/Josa', 0.48383215069770813),
+ ('질문/Noun', 0.4828316867351532)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199182
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('반/Noun', 0.5402229428291321),
+ ('7/Number', 0.5219303369522095),
+ ('휴가/Noun', 0.506812334060669),
+ ('점수/Noun', 0.5057840347290039),
+ ('도/Noun', 0.4941282272338867),
+ ('물다/Verb', 0.48713669180870056),
+ ('시험/Noun', 0.4812796115875244),
+ ('버스/Noun', 0.4699505567550659),
+ ('싫어하다/Adjective', 0.4683130979537964),
+ ('복/Noun', 0.46081212162971497)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199221
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('하고/Josa', 0.61821448802948),
+ ('남/Noun', 0.5996158123016357),
+ ('공/Noun', 0.5738710761070251),
+ ('물어보다/Verb', 0.5656063556671143),
+ ('대학원/Noun', 0.5648503303527832),
+ ('주안역/Noun', 0.5554053783416748),
+ ('기/Noun', 0.5458152890205383),
+ ('대학평가/Noun', 0.5354938507080078),
+ ('통합/Noun', 0.5237542390823364),
+ ('ㅋㅋ/KoreanParticle', 0.5214317440986633)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199324
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('ㅋㅋ/KoreanParticle', 0.6256787776947021),
+ ('부터/Josa', 0.6205269694328308),
+ ('오다/Verb', 0.6131392121315002),
+ ('새끼/Noun', 0.6049890518188477),
+ ('잡다/Verb', 0.601068377494812),
+ ('에서/Josa', 0.5945428013801575),
+ ('나/Josa', 0.5943347811698914),
+ ('일수/Noun', 0.5936141610145569),
+ ('씹다/Verb', 0.5922050476074219),
+ ('궁금하다/Adjective', 0.5889858603477478)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199436
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('기다/Verb', 0.5076209306716919),
+ ('니까/Josa', 0.49486100673675537),
+ ('플/Exclamation', 0.4512076675891876),
+ ('힘들다/Adjective', 0.44109660387039185),
+ ('만나다/Verb', 0.42783671617507935),
+ ('2/Number', 0.41310515999794006),
+ ('봐/Noun', 0.4092627763748169),
+ ('보고/Noun', 0.40059196949005127),
+ ('대로/Josa', 0.39402467012405396),
+ ('혹시/Noun', 0.3935522437095642)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199544
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('나다/Verb', 0.4999607503414154),
+ ('올리다/Verb', 0.49089646339416504),
+ ('한테/Josa', 0.4846894145011902),
+ ('시험/Noun', 0.47752416133880615),
+ ('장학금/Noun', 0.46312379837036133),
+ ('이제/Noun', 0.4569283723831177),
+ ('인거/Josa', 0.4540758728981018),
+ ('수업/Noun', 0.450308620929718),
+ ('가다/Verb', 0.4461261034011841),
+ ('자다/Verb', 0.44240614771842957)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199651
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('이/Noun', 0.5308405160903931),
+ ('./Punctuation', 0.5087618231773376),
+ ('딱/Adverb', 0.5083997249603271),
+ ('!!/Punctuation', 0.5054579377174377),
+ ('총학/Noun', 0.5036991238594055),
+ ('ㅠㅠ/KoreanParticle', 0.49732351303100586),
+ ('한테/Josa', 0.49473172426223755),
+ ('ㅅㅂ/KoreanParticle', 0.49397289752960205),
+ ('난/Noun', 0.49308598041534424),
+ ('인하/Noun', 0.4887322187423706)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199725
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('오다/Verb', 0.6765924096107483),
+ ('으로/Josa', 0.6738623380661011),
+ ('점/Noun', 0.6681220531463623),
+ ('안/Noun', 0.6668602228164673),
+ ('새끼/Noun', 0.6519745588302612),
+ ('얼마나/Noun', 0.6130166053771973),
+ ('셤/Noun', 0.6099355816841125),
+ ('고딩/Noun', 0.6098862886428833),
+ ('많이/Adverb', 0.606373131275177),
+ ('애/Noun', 0.6056482791900635)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199829
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('웹강/Noun', 0.6067029237747192),
+ ('으로/Josa', 0.5653252005577087),
+ ('시험/Noun', 0.560958981513977),
+ ('싸다/Verb', 0.560194730758667),
+ ('!/Punctuation', 0.545091450214386),
+ ('가/Josa', 0.5319987535476685),
+ ('잘/VerbPrefix', 0.5264260768890381),
+ ('내일/Noun', 0.5220603942871094),
+ ('야/Josa', 0.5204113125801086),
+ ('ㅠㅠ/KoreanParticle', 0.5196437835693359)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199905
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('시험/Noun', 0.646622896194458),
+ ('명/Noun', 0.6241245865821838),
+ ('학교/Noun', 0.5914280414581299),
+ ('컴공/Noun', 0.5900479555130005),
+ ('휴가/Noun', 0.5810900926589966),
+ ('다시/Noun', 0.5585466623306274),
+ ('8/Number', 0.5539491176605225),
+ ('고딩/Noun', 0.5498974323272705),
+ ('저/Noun', 0.5485450625419617),
+ ('방학/Noun', 0.5430665612220764)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+199951
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('학교/Noun', 0.6045492887496948),
+ ('시험/Noun', 0.5453298091888428),
+ ('지금/Noun', 0.5448846817016602),
+ ('뜨다/Verb', 0.5426949858665466),
+ ('점수/Noun', 0.5391542315483093),
+ ('이/Noun', 0.5380102396011353),
+ ('좀/Noun', 0.5347763299942017),
+ ('공/Noun', 0.5227649211883545),
+ ('점/Noun', 0.519575834274292),
+ ('없다/Adjective', 0.5176917910575867)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200018
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('학교/Noun', 0.6270950436592102),
+ ('여자/Noun', 0.6065388917922974),
+ ('시험/Noun', 0.5954558849334717),
+ ('알다/Verb', 0.590547502040863),
+ ('인가/Josa', 0.5875253677368164),
+ ('나오다/Verb', 0.5850667953491211),
+ ('사귀다/Verb', 0.5782390832901001),
+ ('맞다/Verb', 0.5769765377044678),
+ ('늘다/Verb', 0.5754711627960205),
+ ('노래/Noun', 0.5731184482574463)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200107
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('언제/Noun', 0.7047545909881592),
+ ('니까/Josa', 0.6404037475585938),
+ ('보고/Noun', 0.6334130167961121),
+ ('줌/Noun', 0.6018118858337402),
+ ('정시/Noun', 0.5924208760261536),
+ ('봄/Noun', 0.5859105587005615),
+ ('만들다/Verb', 0.5845664739608765),
+ ('영어/Noun', 0.5721526145935059),
+ ('가능/Noun', 0.5711895227432251),
+ ('붙다/Verb', 0.5672277212142944)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200162
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('빨리/Adverb', 0.5813604593276978),
+ ('달다/Verb', 0.5761661529541016),
+ ('시험/Noun', 0.5551937222480774),
+ ('점수/Noun', 0.551153302192688),
+ ('8/Number', 0.5411597490310669),
+ ('딸/Noun', 0.532106339931488),
+ ('행시/Noun', 0.5312446355819702),
+ ('반/Noun', 0.5291634798049927),
+ ('뽑다/Verb', 0.5234610438346863),
+ ('오티/Noun', 0.5214453935623169)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200301
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('시험/Noun', 0.8326572179794312),
+ ('반/Noun', 0.7729057669639587),
+ ('치다/Verb', 0.7669899463653564),
+ ('늘다/Verb', 0.7383384704589844),
+ ('부터/Josa', 0.7143450379371643),
+ ('밥/Noun', 0.7138004302978516),
+ ('컴공/Noun', 0.705777645111084),
+ ('르/Noun', 0.6982786655426025),
+ ('사진/Noun', 0.692099928855896),
+ ('알다/Verb', 0.6870949268341064)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200379
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('하다/Verb', 0.7150291800498962),
+ ('잘하다/Verb', 0.7095118761062622),
+ ('1/Number', 0.6969562768936157),
+ ('요/Josa', 0.6959730386734009),
+ ('시험/Noun', 0.6940934062004089),
+ ('친구/Noun', 0.6664367914199829),
+ ('대다/Verb', 0.6644063591957092),
+ ('난/Noun', 0.6627135276794434),
+ ('인거/Josa', 0.6559373140335083),
+ ('../Punctuation', 0.65229731798172)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200468
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('거/Noun', 0.5874632596969604),
+ ('새끼/Noun', 0.5858556032180786),
+ ('ㅅㅂ/KoreanParticle', 0.5803629159927368),
+ ('놈/Noun', 0.5789632201194763),
+ ('공수/Noun', 0.5789205431938171),
+ ('진짜/Noun', 0.5786605477333069),
+ ('니/Noun', 0.5729529857635498),
+ ('문제/Noun', 0.5717878937721252),
+ ('ㅡㅡ/KoreanParticle', 0.5701553821563721),
+ ('내/Determiner', 0.5620462894439697)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200540
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('얼마/Noun', 0.569927990436554),
+ ('방/Noun', 0.5488621592521667),
+ ('않다/Verb', 0.5369338989257812),
+ ('재밌다/Adjective', 0.5174217820167542),
+ ('머/Noun', 0.4939650893211365),
+ ('과/Noun', 0.4895328879356384),
+ ('호관/Noun', 0.48545223474502563),
+ ('환경부/Noun', 0.47716814279556274),
+ ('상담/Noun', 0.46868616342544556),
+ ('수시/Noun', 0.46730121970176697)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200741
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('수업/Noun', 0.6897918581962585),
+ ('-/Punctuation', 0.6550872325897217),
+ ('누가/Noun', 0.6519463062286377),
+ ('개/Noun', 0.6381075978279114),
+ ('알바/Noun', 0.6058406829833984),
+ ('이상/Noun', 0.5711983442306519),
+ ('난/Noun', 0.5706145763397217),
+ ('내다/Verb', 0.5622019171714783),
+ ('15/Number', 0.55946284532547),
+ ('일이/Noun', 0.5589030981063843)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200880
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('먹다/Verb', 0.6796978712081909),
+ ('까지/Josa', 0.6778744459152222),
+ ('축제/Noun', 0.6645514369010925),
+ ('해/Josa', 0.6521590948104858),
+ ('시험/Noun', 0.6442971229553223),
+ ('가보다/Verb', 0.628547191619873),
+ ('치다/Verb', 0.6275753378868103),
+ ('및/Noun', 0.625914454460144),
+ ('밖에/Josa', 0.6230276226997375),
+ ('돈/Noun', 0.622433066368103)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+200975
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('토익/Noun', 0.6070683002471924),
+ ('수강/Noun', 0.5881916880607605),
+ ('부터/Josa', 0.5869695544242859),
+ ('시험/Noun', 0.585199236869812),
+ ('해서/Josa', 0.5788311958312988),
+ ('ㄷㄷ/KoreanParticle', 0.5740798711776733),
+ ('오다/Verb', 0.565137505531311),
+ ('언제/Noun', 0.5595016479492188),
+ ('+/Punctuation', 0.5581073760986328),
+ ('하다/Verb', 0.5550085306167603)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+201133
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('그/Noun', 0.6418080925941467),
+ ('7/Number', 0.6350300312042236),
+ ('해/Noun', 0.634026050567627),
+ ('만나다/Verb', 0.6300331950187683),
+ ('평/Noun', 0.6024996042251587),
+ ('은/Noun', 0.599095344543457),
+ ('과기대/Noun', 0.5856683254241943),
+ ('위해/Noun', 0.577305257320404),
+ ('바라다/Verb', 0.576637864112854),
+ ('평가/Noun', 0.5687954425811768)]
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+201224
+3
+(['아동/Noun',
+  '발달/Noun',
+  '연구/Noun',
+  '에/Josa',
+  '영향/Noun',
+  '을/Josa',
+  '준/Noun',
+  '철학자/Noun',
+  '중/Noun',
+  '로크/Noun',
+  '와/Josa',
+  '루소/Noun',
+  '에/Josa',
+  '대해/Noun',
+  '이/Noun',
+  '들/Suffix',
+  '의/Josa',
+  '철학/Noun',
+  '및/Noun'],
+ '20140802')
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+[('학교/Noun', 0.5627882480621338),
+ ('이/Josa', 0.5579289793968201),
+ ('하다/Verb', 0.5447120666503906),
+ ('아니다/Adjective', 0.5378050208091736),
+ ('난/Noun', 0.5360629558563232),
+ ('사람/Noun', 0.5352437496185303),
+ ('인데/Josa', 0.5296847820281982),
+ ('좀/Noun', 0.524799108505249),
+ ('가다/Verb', 0.5223370790481567),
+ ('와/Noun', 0.5199888944625854)]
+python3 1.py 20161101
+python3 1.py 20161102
+python3 1.py 20161103
+python3 1.py 20161104
+python3 1.py 20161105
+python3 1.py 20161106
+python3 1.py 20161107
+python3 1.py 20161108
+python3 1.py 20161109
+python3 1.py 20161110
+python3 1.py 20161111
+python3 1.py 20161112
+python3 1.py 20161113
+python3 1.py 20161114
+python3 1.py 20161115
+python3 1.py 20161116
+python3 1.py 20161117
+python3 1.py 20161118
+python3 1.py 20161119
+python3 1.py 20161120
+python3 1.py 20161121
+python3 1.py 20161122
+python3 1.py 20161123
+python3 1.py 20161124
+python3 1.py 20161125
+python3 1.py 20161126
+python3 1.py 20161127
+python3 1.py 20161128
+Traceback (most recent call last):
+  File "1.py", line 10, in <module>
+    train_data = read_data('./trainset/'+aaa+'.txt')
+  File "1.py", line 6, in read_data
+    with open(filename, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './trainset/20161031.txt'

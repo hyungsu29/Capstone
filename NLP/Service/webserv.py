@@ -34,4 +34,10 @@ def getpredict():
 	s=f.read()
 	f.close()
 	return s
+@route('/getrank')
+def getrank():
+	start = request.query.start
+	end = 
+	return 'a'	
+
 run(host='0.0.0.0', port=6974)

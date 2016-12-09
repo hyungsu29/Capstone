@@ -10,6 +10,10 @@ allword=0
 _site=sys.argv[1]
 _startdate=sys.argv[2]
 _enddate=sys.argv[3]
+ppp = open('filter_list','r')
+filter_list = ppp.readline().split(' ')
+ppp.close()
+
 
 for line in lines:
 	raw=line.split(',')
@@ -43,6 +47,8 @@ sorted_d=sorted(d.items(), key=operator.itemgetter(1), reverse=True)
 idx=1
 retlist=list()
 for item in sorted_d:
+	if item[0] in filter_list:
+		continue
 	if(idx==11):
 		break
 	v=dict()

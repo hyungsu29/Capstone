@@ -13,6 +13,8 @@ cls.append(Mecab())
 cls.append(Komoran())
 cls.append(Twitter())
 maxfreq=dict()
+is_filter = dict()
+retlist=list()
 
 
 def TF(nouns):
@@ -60,6 +62,13 @@ def main():
 	i=0
 	f=open('R2.csv','w')
 	ii=1000
+	prev = 0
+	cnt = 0
+	filter_list = ''
+	fq = dict()
+	aaaaa = list()
+	prev = list()
+	prev_filter = prev 
 	for data in DATA:
 		ii-=1
 		date=data.split(',')[0]
@@ -72,15 +81,35 @@ def main():
 			D[noun]=0
 		for noun in nouns:
 			D[noun]+=1
-		print(D)
+		#print(D)
 		tfidf=sorted(D.items(), key=operator.itemgetter(1),reverse=True)
+
+#		print(tfidf)
 		j=0
 		ws=date+','
 		ss=''
+		for qqqq in is_filter:
+			is_filter[qqqq] = 0
 		for kk in tfidf:
 			if(j>=10):
 				break
+			if kk[0] in aaaaa:
+				continue
+			if kk[0] in prev_filter:
+				if(kk[0] in fq):
+					if(fq[kk[0]] > 60):
+						if kk[0] not in aaaaa:
+							aaaaa.append(kk[0])
+						continue
+				elif(kk[0] not in fq):
+					fq[kk[0]]=0
+				fq[kk[0]] += 1
+			else:
+				if kk[0] in fq:
+					fq[kk[0]] = 0
 			ss+=kk[0]
+			print(kk[0])
+			prev.append(kk[0])
 			ss+=','
 			j+=1
 		print ('----------------------------------------------')
@@ -92,6 +121,13 @@ def main():
 		ws+=ss
 		ws+='\n'
 		f.write(ws)
+	fl = open('filter_list','w')
+	for l in aaaaa:
+		filter_list = filter_list + l + ' '
+#		print('%s : %d' % (l, fq[l]))
+			
+	fl.write(filter_list)
+	fl.close()
 	f.close()
 	f=open('R2.csv','r')
 	lines=f.readlines()

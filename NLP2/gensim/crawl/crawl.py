@@ -136,7 +136,7 @@ def isdel(data):
 ourl='http://gall.dcinside.com/board/view/?id=inha&no='
 nono=int(sys.argv[1])
 nono+=1
-nn=100000
+nn=1000000
 for i in range(0, nn):
     nono-=1
     url=ourl+str(nono)

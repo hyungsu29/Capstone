@@ -44,7 +44,7 @@ def initallword(allword, nouns):
 def readdb():
 	conn = pymysql.connect(host='localhost', user='root', password='9999', db='capstone', charset='utf8')
 	curs = conn.cursor(pymysql.cursors.DictCursor)
-	curs.execute("select * from DB1 where site="+"'"+site+"'")
+	curs.execute("select * from DB1 where site="+"'"+site+"' order by date asc")
 	rows=curs.fetchall()
 
 	data=json.dumps(rows, ensure_ascii=False)
