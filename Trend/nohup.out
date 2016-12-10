@@ -1,0 +1,764 @@
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Bottle v0.12.10 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:6974/
+Hit Ctrl-C to quit.
+
+203.128.183.132 - - [10/Dec/2016 22:07:11] "GET /gettable?site=DCinside.com&startdate=20161104&enddate=20161104 HTTP/1.1" 200 670
+203.128.183.132 - - [10/Dec/2016 22:07:11] "GET /gettable?site=DCinside.com&startdate=20161104&enddate=20161104 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:08:41] "GET /gettable?site=DCinside.com&startdate=20160101&enddate=20161111 HTTP/1.0" 200 681
+192.168.1.1 - - [10/Dec/2016 22:08:41] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:08:42] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:18:41] "GET /gettable?site=DCinside.com&startdate=20160101&enddate=20161010 HTTP/1.0" 200 681
+192.168.1.1 - - [10/Dec/2016 22:18:41] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:18:42] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:19:01] "GET /gettable?site=DCinside.com&startdate=20161010&enddate=20161010 HTTP/1.0" 200 664
+192.168.1.1 - - [10/Dec/2016 22:19:01] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:19:02] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:20:30] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 664
+192.168.1.1 - - [10/Dec/2016 22:20:30] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:20:31] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:20:37] "GET /gettable?site=DCinside.com&startdate=20161010&enddate=20161111 HTTP/1.0" 200 683
+192.168.1.1 - - [10/Dec/2016 22:20:37] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:20:38] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:21:15] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 683
+192.168.1.1 - - [10/Dec/2016 22:21:15] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:21:16] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:21:24] "GET /gettable?site=DCinside.com&startdate=20161010&enddate=20161111 HTTP/1.0" 200 683
+192.168.1.1 - - [10/Dec/2016 22:21:24] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:21:25] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:22:10] "GET /gettable?site=DCinside.com&startdate=20161010&enddate=20161111 HTTP/1.0" 200 683
+192.168.1.1 - - [10/Dec/2016 22:22:10] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:22:11] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:23:07] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 683
+192.168.1.1 - - [10/Dec/2016 22:23:07] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:23:08] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:24:51] "GET /gettable?site=DCinside.com&startdate=20161111&enddate=20161010 HTTP/1.0" 200 2
+192.168.1.1 - - [10/Dec/2016 22:24:51] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:24:53] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:25:34] "GET /gettable?site=DCinside.com&startdate=20161111&enddate=20161010 HTTP/1.0" 200 2
+192.168.1.1 - - [10/Dec/2016 22:25:35] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:25:36] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:25:36] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 2
+192.168.1.1 - - [10/Dec/2016 22:25:36] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+192.168.1.1 - - [10/Dec/2016 22:25:38] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:25:48] "GET /gettable?site=DCinside.com&startdate=20161010&enddate=20161111 HTTP/1.0" 200 683
+192.168.1.1 - - [10/Dec/2016 22:25:48] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:25:50] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:27:07] "GET /gettable?site=DCinside.com&startdate=20161111&enddate=20161212 HTTP/1.0" 200 671
+192.168.1.1 - - [10/Dec/2016 22:27:07] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:27:09] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:27:37] "GET /gettable?site=DCinside.com&startdate=20160101&enddate=20161010  HTTP/1.0" 200 681
+192.168.1.1 - - [10/Dec/2016 22:27:37] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:27:38] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:28:03] "GET /gettable?site=DCinside.com&startdate=20161010&enddate=20161111 HTTP/1.0" 200 683
+192.168.1.1 - - [10/Dec/2016 22:28:03] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:28:04] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:29:59] "GET /gettable?site=DCinside.com&startdate=20160101&enddate=20160102 HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:29:59] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:30:00] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:30:30] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:30:30] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:30:32] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:30:49] "GET /gettable?site=DCinside.com&startdate=20160101&enddate=20161010 HTTP/1.0" 200 681
+192.168.1.1 - - [10/Dec/2016 22:30:50] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:30:51] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:31:20] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 681
+192.168.1.1 - - [10/Dec/2016 22:31:20] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:31:21] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:31:27] "GET /gettable?site=DCinside.com&startdate=20160101&enddate=20160102 HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:31:27] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:31:28] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:32:18] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:32:18] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:32:19] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:32:39] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:32:39] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:32:41] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:34:06] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:34:07] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "gettable.py", line 11, in <module>
+    _startdate=sys.argv[2]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+192.168.1.1 - - [10/Dec/2016 22:34:08] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:34:33] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:34:34] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:34:35] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:35:01] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:35:01] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:35:03] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:35:20] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 669
+192.168.1.1 - - [10/Dec/2016 22:35:20] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:35:22] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:36:52] "GET /gettable?site=DCinside.com&startdate=20161101&enddate=20161101 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:52] "GET /gettable?site=DCinside.com&startdate=20161102&enddate=20161102 HTTP/1.1" 200 673
+192.168.1.1 - - [10/Dec/2016 22:36:52] "GET /gettable?site=DCinside.com&startdate=20161103&enddate=20161103 HTTP/1.1" 200 673
+192.168.1.1 - - [10/Dec/2016 22:36:52] "GET /gettable?site=DCinside.com&startdate=20161104&enddate=20161104 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:52] "GET /gettable?site=DCinside.com&startdate=20161105&enddate=20161105 HTTP/1.1" 200 667
+192.168.1.1 - - [10/Dec/2016 22:36:52] "GET /gettable?site=DCinside.com&startdate=20161106&enddate=20161106 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:52] "GET /gettable?site=DCinside.com&startdate=20161107&enddate=20161107 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161108&enddate=20161108 HTTP/1.1" 200 667
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161109&enddate=20161109 HTTP/1.1" 200 667
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161110&enddate=20161110 HTTP/1.1" 200 676
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161111&enddate=20161111 HTTP/1.1" 200 676
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161112&enddate=20161112 HTTP/1.1" 200 676
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161113&enddate=20161113 HTTP/1.1" 200 673
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161114&enddate=20161114 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161115&enddate=20161115 HTTP/1.1" 200 664
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161116&enddate=20161116 HTTP/1.1" 200 667
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161117&enddate=20161117 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161118&enddate=20161118 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:53] "GET /gettable?site=DCinside.com&startdate=20161119&enddate=20161119 HTTP/1.1" 200 667
+192.168.1.1 - - [10/Dec/2016 22:36:54] "GET /gettable?site=DCinside.com&startdate=20161120&enddate=20161120 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:54] "GET /gettable?site=DCinside.com&startdate=20161121&enddate=20161121 HTTP/1.1" 200 670
+192.168.1.1 - - [10/Dec/2016 22:36:54] "GET /gettable?site=DCinside.com&startdate=20161122&enddate=20161122 HTTP/1.1" 200 667
+192.168.1.1 - - [10/Dec/2016 22:36:54] "GET /gettable?site=DCinside.com&startdate=20161123&enddate=20161123 HTTP/1.1" 200 668
+192.168.1.1 - - [10/Dec/2016 22:36:54] "GET /gettable?site=DCinside.com&startdate=20161124&enddate=20161124 HTTP/1.1" 200 662
+192.168.1.1 - - [10/Dec/2016 22:36:54] "GET /gettable?site=DCinside.com&startdate=20161125&enddate=20161125 HTTP/1.1" 200 664
+192.168.1.1 - - [10/Dec/2016 22:36:54] "GET /gettable?site=DCinside.com&startdate=20161126&enddate=20161126 HTTP/1.1" 200 661
+192.168.1.1 - - [10/Dec/2016 22:36:55] "GET /gettable?site=DCinside.com&startdate=20161127&enddate=20161127 HTTP/1.1" 200 673
+192.168.1.1 - - [10/Dec/2016 22:36:55] "GET /gettable?site=DCinside.com&startdate=20161128&enddate=20161128 HTTP/1.1" 200 667
+192.168.1.1 - - [10/Dec/2016 22:37:22] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 667
+192.168.1.1 - - [10/Dec/2016 22:37:22] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:37:24] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:37:46] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 667
+192.168.1.1 - - [10/Dec/2016 22:37:46] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:37:47] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:38:22] "GET /gettable?site=DCinside.com&startdate=20161010&enddate=20161010 HTTP/1.0" 200 667
+192.168.1.1 - - [10/Dec/2016 22:38:22] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+192.168.1.1 - - [10/Dec/2016 22:38:23] "GET /getpredict HTTP/1.0" 500 756
+192.168.1.1 - - [10/Dec/2016 22:38:32] "GET /gettable?site=DCinside.com&startdate=&enddate= HTTP/1.0" 200 667
+192.168.1.1 - - [10/Dec/2016 22:38:32] "GET /getdata HTTP/1.0" 200 54
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/usr/local/lib/python3.5/dist-packages/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "webserv.py", line 34, in getpredict
+    f=open('./tmpfile/predict_'+site+date,'r')
+FileNotFoundError: [Errno 2] No such file or directory: './tmpfile/predict_'
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "getdata.py", line 8, in <module>
+    _site=sys.argv[1].strip()
+IndexError: list index out of range
+/usr/local/lib/python3.5/dist-packages/gensim/utils.py:1015: UserWarning: Pattern library is not installed, lemmatization won't be available.
+  warnings.warn("Pattern library is not installed, lemmatization won't be available.")
+Traceback (most recent call last):
+  File "getpredict.py", line 7, in <module>
+    site=sys.argv[1]
+IndexError: list index out of range
